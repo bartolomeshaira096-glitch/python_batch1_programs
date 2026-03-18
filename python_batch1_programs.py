@@ -49,6 +49,6 @@ def prog09():
         if number % 2 == 0:
             print(number)
 def prog10():
-    # FOR number from 0 to 100
-    # IF number mod 10 != 0
-    #     DISPLAY number
+    for number in range(0, 101):
+        if number % 10 != 0:
+            print(number)
