@@ -21,12 +21,12 @@ def prog04():
     product = num1 * num2
     print(product)
 def prog05():
-    # INPUT num1, num2
-    # IF num2 != 0
-    #SET quotient = num1 / num2
-    # DISPLAY quotient
-    # ELSE
-    # DISPLAY "Cannot divide by zero"
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    if num2 != 0:
+        print(num1 / num2)
+    else:
+        print("Cannot divide by zero")
 def prog06():
      # INPUT base, exponent
      # SET result = base ^ exponent
