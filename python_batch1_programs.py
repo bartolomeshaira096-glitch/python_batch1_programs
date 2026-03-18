@@ -28,9 +28,9 @@ def prog05():
     else:
         print("Cannot divide by zero")
 def prog06():
-     # INPUT base, exponent
-     # SET result = base ^ exponent
-     # DISPLAY result
+    base_number = float(input("Enter first number: "))
+    exponent_number = float(input("Enter second number: "))
+    print(base_number ** exponent_number)
 def prog07():
     # SET sum = 0
     # REPEAT 10 times
