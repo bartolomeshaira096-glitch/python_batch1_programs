@@ -38,12 +38,12 @@ def prog07():
         total_sum += number
     print("Total sum:", total_sum)
 def prog08():
-    # SET odd_count = 0
-    # REPEAT 10 times
-    # INPUT number
-    # IF number is odd
-    #     INCREMENT odd_coun
-    # DISPLAY odd_count
+    odd_count = 0
+    for i in range(10):
+        number = int(input(f"Enter number {i+1}: "))
+        if number % 2 != 0:
+            odd_count += 1
+    print("Odd numbers count:", odd_count)
 def prog09():
     # FOR number from 0 to 100
     # IF number is even
