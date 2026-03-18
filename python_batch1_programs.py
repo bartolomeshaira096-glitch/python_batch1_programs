@@ -1,6 +1,10 @@
 def prog01():
-# user needs to input num1 and num2
-# IF num1 > num2
+ num1 = float(input("Enter first number: "))
+ num2 = float(input("Enter second number: "))
+if num1 > num2:
+        print(num1)
+else:
+        print(num2)
 # DISPLAY num1
 # ELSE
 # DISPLAY num2 
