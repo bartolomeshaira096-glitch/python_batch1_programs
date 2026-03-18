@@ -16,9 +16,10 @@ def prog03():
     total_sum = num1 + num2
     print(total_sum)
 def prog04():
-     # INPUT num1, num2
-    # SET product = num1 * num2
-    # DISPLAY product
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    product = num1 * num2
+    print(product)
 def prog05():
     # INPUT num1, num2
     # IF num2 != 0
