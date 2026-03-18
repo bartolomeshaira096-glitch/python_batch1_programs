@@ -45,9 +45,9 @@ def prog08():
             odd_count += 1
     print("Odd numbers count:", odd_count)
 def prog09():
-    # FOR number from 0 to 100
-    # IF number is even
-    #     DISPLAY number
+    for number in range(0, 101):
+        if number % 2 == 0:
+            print(number)
 def prog10():
     # FOR number from 0 to 100
     # IF number mod 10 != 0
