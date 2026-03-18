@@ -32,11 +32,11 @@ def prog06():
     exponent_number = float(input("Enter second number: "))
     print(base_number ** exponent_number)
 def prog07():
-    # SET sum = 0
-    # REPEAT 10 times
-    # INPUT number
-    # ADD number to sum
-    # DISPLAY sum
+    total_sum = 0
+    for i in range(10):
+        number = float(input(f"Enter number {i+1}: "))
+        total_sum += number
+    print("Total sum:", total_sum)
 def prog08():
     # SET odd_count = 0
     # REPEAT 10 times
