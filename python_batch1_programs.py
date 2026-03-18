@@ -5,13 +5,11 @@ if num1 > num2:
         print(num1)
 else:
         print(num2)
-# DISPLAY num1
-# ELSE
-# DISPLAY num2 
 def prog02():
-    # INPUT num1, num2
-    # IF num1 == num2
-    #     DISPLAY "Equal"
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    if num1 == num2:
+        print("Equal")
 def prog03():
     # INPUT num1, num2
     # SET sum = num1 + num2
