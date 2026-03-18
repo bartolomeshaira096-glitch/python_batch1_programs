@@ -11,8 +11,10 @@ def prog02():
     if num1 == num2:
         print("Equal")
 def prog03():
-    # INPUT num1, num2
-    # SET sum = num1 + num2
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    total_sum = num1 + num2
+    print(total_sum)
 def prog04():
      # INPUT num1, num2
     # SET product = num1 * num2
